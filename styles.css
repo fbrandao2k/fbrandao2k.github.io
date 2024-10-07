@@ -1,0 +1,146 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #151515;
+    color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #2a2a2a;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #dcdcdc;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    padding: 5px 15px;
+}
+
+nav a:hover {
+    background-color: #1abc9c;
+    color: #1e1e1e;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.main {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #f5f5f5;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    font-size: 1.1em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #151515;
+    color: #f5f5f5;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* General link style */
+a {
+    color: #1abc9c;  /* Teal color to stand out */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+/* Link hover effect */
+a:hover {
+    color: #f39c12;  /* Change to a vibrant orange on hover */
+    text-decoration: underline;
+}
+
+/* Container for the images in the 'About Me' section */
+.about-me-image-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.about-me-image-text img {
+    width: 20%; /* Each image takes up 48% of the container width */
+    border-radius: 10%; /* Optional: Add rounded corners */
+    object-fit: cover;
+}
+
+.about-me-text {
+    display: column;
+    justify-content: space-between;
+    margin-bottom: 1px;
+    margin-left: 20px;
+}
+
+.single-image {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.single-image img {
+    width: 100%; /* Each image takes up 48% of the container width */
+    object-fit: cover;
+}
+
+.two-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.two-images img {
+    width: 48%; /* Each image takes up 48% of the container width */
+height: 100%;
+    object-fit: fill;
+}
+
